@@ -74,7 +74,7 @@ class API(AbstractAPI):
 							querykeys[k] = types[k](querykeys[k])
 
 				if f["headers"]:
-					return func(**querykeys,**pathkeys,**headers)
+					return func(**querykeys,**pathkeys,**dict(headers))
 				else:
 					return func(**querykeys,**pathkeys)
 
