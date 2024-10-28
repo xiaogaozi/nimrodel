@@ -5,11 +5,14 @@ description = "Bottle-wrapper to make python objects accessible via HTTP API"
 readme = "./README.md"
 requires-python = ">=3.6"
 license = { file="./LICENSE" }
-authors = [ { name="Johannes Krattenmacher", email="nimrodel@dev.krateng.ch" } ]
+authors = [
+  { name="Johannes Krattenmacher", email="nimrodel@dev.krateng.ch" },
+  { name="Changjian Gao", email="gaochangjian@gmail.com" }
+]
 
-urls.repository = "https://github.com/krateng/nimrodel"
-urls.documentation = "https://github.com/krateng/nimrodel"
-urls.homepage = "https://github.com/krateng/nimrodel"
+urls.repository = "https://github.com/xiaogaozi/nimrodel"
+urls.documentation = "https://github.com/xiaogaozi/nimrodel"
+urls.homepage = "https://github.com/xiaogaozi/nimrodel"
 
 keywords = ["library", "api"]
 classifiers = [
