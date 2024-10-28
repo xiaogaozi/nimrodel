@@ -1,6 +1,6 @@
 [project]
 name = "nimrodel-fixed"
-version = "0.8.1"
+version = "0.8.2"
 description = "Bottle-wrapper to make python objects accessible via HTTP API"
 readme = "./README.md"
 requires-python = ">=3.6"
