@@ -13,4 +13,4 @@ nohup.out
 !/.gitignore
 !/.github
 !/example.py
-!/nimrodel
+!/nimrodel_fixed
